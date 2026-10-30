@@ -1,0 +1,6 @@
+const fs=require('fs'),vm=require('vm'),ctx={};ctx.window=ctx;vm.createContext(ctx);vm.runInContext(fs.readFileSync('js/puzzle-rules.js','utf8'),ctx);const R=ctx.SoloPuzzleRules,tchuka=[],seen=new Set();let seed=337;
+function rand(n){seed^=seed<<13;seed^=seed>>>17;seed^=seed<<5;return Math.floor((seed>>>0)/4294967296*n)}
+tchuka.push({board:[2,2,2,2,0],path:R.tchukaSolve([2,2,2,2,0])});seen.add('2,2,2,2,0');
+for(let attempt=0;tchuka.length<1000&&attempt<1000000;attempt++){const pits=4+rand(5),b=Array.from({length:pits},()=>rand(9));const total=b.reduce((a,b)=>a+b,0);if(total<4||total>45||b.filter(Boolean).length<3)continue;b.push(0);const key=b.join(',');if(seen.has(key))continue;seen.add(key);const path=R.tchukaSolve(b,6000);if(path?.length)tchuka.push({board:b,path})}
+if(tchuka.length!==1000)throw Error('Only '+tchuka.length+' solvable relay puzzles');const first=tchuka.shift();tchuka.sort((a,b)=>a.board.length-b.board.length||a.path.length-b.path.length);tchuka.unshift(first);
+const nuri=[];for(let level=1;level<=1000;level++)nuri.push(R.nuri(level));fs.writeFileSync('js/solo-data.js','// Reproducible solo puzzle data; rebuild with tests/generate-solo.cjs.\nwindow.SoloPuzzleData='+JSON.stringify({tchuka,nuri})+';\n');console.log('Generated 1000 distinct solvable Tchuka Ruma starts and 1000 valid Nurikabe layouts.');

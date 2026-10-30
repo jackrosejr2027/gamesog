@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PullCrest Card",
+  "type": "object",
+  "required": [
+    "card_id",
+    "name",
+    "card_type",
+    "stage",
+    "element",
+    "rules_text",
+    "art_license"
+  ],
+  "properties": {
+    "card_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "card_type": {
+      "enum": [
+        "Creature",
+        "Guide",
+        "Tool",
+        "Energy"
+      ]
+    },
+    "stage": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 4
+    },
+    "family": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 149
+    },
+    "evolves_from": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "hp": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "element": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "attacks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "cost",
+          "damage",
+          "extra_cost",
+          "effects"
+        ],
+        "properties": {
+          "cost": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "damage": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "extra_cost": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "effects": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "toxin",
+                "self_heal",
+                "recoil",
+                "draw_one"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "weakness": {
+      "type": "string"
+    },
+    "resistance": {
+      "type": "string"
+    },
+    "retreat_cost": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "abilities": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "nurture",
+          "ward",
+          "insight"
+        ]
+      }
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rules_text": {
+      "type": "string"
+    },
+    "art_license": {
+      "type": "string"
+    }
+  }
+}

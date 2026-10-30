@@ -1,0 +1,49 @@
+{
+  "records": 226400,
+  "displayedDesignArtGroups": 140730,
+  "redundantPrintingsGrouped": 85670,
+  "uniqueArtworkFiles": 48,
+  "policy": "Group only matching gameplay fields, structured effects and raw artwork path. Preserve every card ID for saved decks. Cards with different mechanics retain shared art; per-printing hue and flavor text are not separate designs.",
+  "types": [
+    {
+      "type": "Creature",
+      "records": 88000,
+      "displayedGroups": 66024
+    },
+    {
+      "type": "Instant",
+      "records": 32000,
+      "displayedGroups": 24024
+    },
+    {
+      "type": "Sorcery",
+      "records": 32000,
+      "displayedGroups": 24024
+    },
+    {
+      "type": "Artifact",
+      "records": 24000,
+      "displayedGroups": 4524
+    },
+    {
+      "type": "Enchantment",
+      "records": 28000,
+      "displayedGroups": 5280
+    },
+    {
+      "type": "Land",
+      "records": 20000,
+      "displayedGroups": 15006
+    },
+    {
+      "type": "Planeswalker",
+      "records": 2000,
+      "displayedGroups": 1524
+    },
+    {
+      "type": "Battle",
+      "records": 400,
+      "displayedGroups": 324
+    }
+  ]
+}

@@ -1,0 +1,1546 @@
+{
+  "edition": "field-guide-1",
+  "total": 198,
+  "retained_plates": 48,
+  "added_adaptations": 150,
+  "newly_generated_this_edition": 0,
+  "note": "The image generator daily quota was reached. All new files adapt existing project-generated illustrations; they are not 150 newly generated paintings. Original card data and source illustrations are unchanged. Circle pools retain an original plate alongside 25 field-guide adaptations. Other types may use the six retained type-matched scenes.",
+  "plates": [
+    {
+      "id": "folk-0-0",
+      "art": "art/0-0.webp",
+      "type": "Creature",
+      "circle": 0,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-0-1",
+      "art": "art/0-1.webp",
+      "type": "Instant",
+      "circle": 0,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-0-2",
+      "art": "art/0-2.webp",
+      "type": "Sorcery",
+      "circle": 0,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-0-3",
+      "art": "art/0-3.webp",
+      "type": "Artifact",
+      "circle": 0,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-0-4",
+      "art": "art/0-4.webp",
+      "type": "Enchantment",
+      "circle": 0,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-0-5",
+      "art": "art/0-5.webp",
+      "type": "Land",
+      "circle": 0,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-0-6",
+      "art": "art/0-6.webp",
+      "type": "Planeswalker",
+      "circle": 0,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-0-7",
+      "art": "art/0-7.webp",
+      "type": "Battle",
+      "circle": 0,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-1-0",
+      "art": "art/1-0.webp",
+      "type": "Creature",
+      "circle": 1,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-1-1",
+      "art": "art/1-1.webp",
+      "type": "Instant",
+      "circle": 1,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-1-2",
+      "art": "art/1-2.webp",
+      "type": "Sorcery",
+      "circle": 1,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-1-3",
+      "art": "art/1-3.webp",
+      "type": "Artifact",
+      "circle": 1,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-1-4",
+      "art": "art/1-4.webp",
+      "type": "Enchantment",
+      "circle": 1,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-1-5",
+      "art": "art/1-5.webp",
+      "type": "Land",
+      "circle": 1,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-1-6",
+      "art": "art/1-6.webp",
+      "type": "Planeswalker",
+      "circle": 1,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-1-7",
+      "art": "art/1-7.webp",
+      "type": "Battle",
+      "circle": 1,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-2-0",
+      "art": "art/2-0.webp",
+      "type": "Creature",
+      "circle": 2,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-2-1",
+      "art": "art/2-1.webp",
+      "type": "Instant",
+      "circle": 2,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-2-2",
+      "art": "art/2-2.webp",
+      "type": "Sorcery",
+      "circle": 2,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-2-3",
+      "art": "art/2-3.webp",
+      "type": "Artifact",
+      "circle": 2,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-2-4",
+      "art": "art/2-4.webp",
+      "type": "Enchantment",
+      "circle": 2,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-2-5",
+      "art": "art/2-5.webp",
+      "type": "Land",
+      "circle": 2,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-2-6",
+      "art": "art/2-6.webp",
+      "type": "Planeswalker",
+      "circle": 2,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-2-7",
+      "art": "art/2-7.webp",
+      "type": "Battle",
+      "circle": 2,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-3-0",
+      "art": "art/3-0.webp",
+      "type": "Creature",
+      "circle": 3,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-3-1",
+      "art": "art/3-1.webp",
+      "type": "Instant",
+      "circle": 3,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-3-2",
+      "art": "art/3-2.webp",
+      "type": "Sorcery",
+      "circle": 3,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-3-3",
+      "art": "art/3-3.webp",
+      "type": "Artifact",
+      "circle": 3,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-3-4",
+      "art": "art/3-4.webp",
+      "type": "Enchantment",
+      "circle": 3,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-3-5",
+      "art": "art/3-5.webp",
+      "type": "Land",
+      "circle": 3,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-3-6",
+      "art": "art/3-6.webp",
+      "type": "Planeswalker",
+      "circle": 3,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-3-7",
+      "art": "art/3-7.webp",
+      "type": "Battle",
+      "circle": 3,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-4-0",
+      "art": "art/4-0.webp",
+      "type": "Creature",
+      "circle": 4,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-4-1",
+      "art": "art/4-1.webp",
+      "type": "Instant",
+      "circle": 4,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-4-2",
+      "art": "art/4-2.webp",
+      "type": "Sorcery",
+      "circle": 4,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-4-3",
+      "art": "art/4-3.webp",
+      "type": "Artifact",
+      "circle": 4,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-4-4",
+      "art": "art/4-4.webp",
+      "type": "Enchantment",
+      "circle": 4,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-4-5",
+      "art": "art/4-5.webp",
+      "type": "Land",
+      "circle": 4,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-4-6",
+      "art": "art/4-6.webp",
+      "type": "Planeswalker",
+      "circle": 4,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-4-7",
+      "art": "art/4-7.webp",
+      "type": "Battle",
+      "circle": 4,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-5-0",
+      "art": "art/5-0.webp",
+      "type": "Creature",
+      "circle": 5,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-5-1",
+      "art": "art/5-1.webp",
+      "type": "Instant",
+      "circle": 5,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-5-2",
+      "art": "art/5-2.webp",
+      "type": "Sorcery",
+      "circle": 5,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-5-3",
+      "art": "art/5-3.webp",
+      "type": "Artifact",
+      "circle": 5,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-5-4",
+      "art": "art/5-4.webp",
+      "type": "Enchantment",
+      "circle": 5,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-5-5",
+      "art": "art/5-5.webp",
+      "type": "Land",
+      "circle": 5,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-5-6",
+      "art": "art/5-6.webp",
+      "type": "Planeswalker",
+      "circle": 5,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "folk-5-7",
+      "art": "art/5-7.webp",
+      "type": "Battle",
+      "circle": 5,
+      "origin": "retained folk-print edition"
+    },
+    {
+      "id": "field-000",
+      "art": "art-bank/neighbor-000.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-000.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-001",
+      "art": "art-bank/neighbor-001.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-001.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-002",
+      "art": "art-bank/neighbor-002.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-002.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-003",
+      "art": "art-bank/neighbor-003.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-003.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-004",
+      "art": "art-bank/neighbor-004.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-004.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-005",
+      "art": "art-bank/neighbor-005.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-005.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-006",
+      "art": "art-bank/neighbor-006.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-006.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-007",
+      "art": "art-bank/neighbor-007.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-007.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-008",
+      "art": "art-bank/neighbor-008.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-008.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-009",
+      "art": "art-bank/neighbor-009.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-009.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-010",
+      "art": "art-bank/neighbor-010.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-010.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-011",
+      "art": "art-bank/neighbor-011.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-011.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-012",
+      "art": "art-bank/neighbor-012.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-012.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-013",
+      "art": "art-bank/neighbor-013.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-013.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-014",
+      "art": "art-bank/neighbor-014.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-014.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-015",
+      "art": "art-bank/neighbor-015.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-015.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-016",
+      "art": "art-bank/neighbor-016.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-016.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-017",
+      "art": "art-bank/neighbor-017.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-017.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-018",
+      "art": "art-bank/neighbor-018.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-018.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-019",
+      "art": "art-bank/neighbor-019.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-019.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-020",
+      "art": "art-bank/neighbor-020.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-020.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-021",
+      "art": "art-bank/neighbor-021.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-021.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-022",
+      "art": "art-bank/neighbor-022.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-022.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-023",
+      "art": "art-bank/neighbor-023.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-023.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-024",
+      "art": "art-bank/neighbor-024.webp",
+      "type": "Creature",
+      "circle": 0,
+      "source": "pullcrest/art/family-024.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-025",
+      "art": "art-bank/neighbor-025.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-025.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-026",
+      "art": "art-bank/neighbor-026.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-026.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-027",
+      "art": "art-bank/neighbor-027.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-027.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-028",
+      "art": "art-bank/neighbor-028.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-028.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-029",
+      "art": "art-bank/neighbor-029.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-029.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-030",
+      "art": "art-bank/neighbor-030.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-030.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-031",
+      "art": "art-bank/neighbor-031.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-031.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-032",
+      "art": "art-bank/neighbor-032.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-032.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-033",
+      "art": "art-bank/neighbor-033.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-033.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-034",
+      "art": "art-bank/neighbor-034.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-034.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-035",
+      "art": "art-bank/neighbor-035.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-035.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-036",
+      "art": "art-bank/neighbor-036.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-036.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-037",
+      "art": "art-bank/neighbor-037.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-037.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-038",
+      "art": "art-bank/neighbor-038.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-038.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-039",
+      "art": "art-bank/neighbor-039.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-039.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-040",
+      "art": "art-bank/neighbor-040.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-040.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-041",
+      "art": "art-bank/neighbor-041.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-041.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-042",
+      "art": "art-bank/neighbor-042.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-042.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-043",
+      "art": "art-bank/neighbor-043.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-043.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-044",
+      "art": "art-bank/neighbor-044.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-044.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-045",
+      "art": "art-bank/neighbor-045.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-045.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-046",
+      "art": "art-bank/neighbor-046.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-046.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-047",
+      "art": "art-bank/neighbor-047.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-047.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-048",
+      "art": "art-bank/neighbor-048.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-048.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-049",
+      "art": "art-bank/neighbor-049.webp",
+      "type": "Creature",
+      "circle": 1,
+      "source": "pullcrest/art/family-049.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-050",
+      "art": "art-bank/neighbor-050.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-050.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-051",
+      "art": "art-bank/neighbor-051.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-051.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-052",
+      "art": "art-bank/neighbor-052.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-052.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-053",
+      "art": "art-bank/neighbor-053.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-053.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-054",
+      "art": "art-bank/neighbor-054.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-054.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-055",
+      "art": "art-bank/neighbor-055.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-055.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-056",
+      "art": "art-bank/neighbor-056.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-056.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-057",
+      "art": "art-bank/neighbor-057.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-057.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-058",
+      "art": "art-bank/neighbor-058.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-058.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-059",
+      "art": "art-bank/neighbor-059.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-059.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-060",
+      "art": "art-bank/neighbor-060.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-060.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-061",
+      "art": "art-bank/neighbor-061.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-061.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-062",
+      "art": "art-bank/neighbor-062.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-062.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-063",
+      "art": "art-bank/neighbor-063.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-063.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-064",
+      "art": "art-bank/neighbor-064.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-064.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-065",
+      "art": "art-bank/neighbor-065.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-065.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-066",
+      "art": "art-bank/neighbor-066.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-066.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-067",
+      "art": "art-bank/neighbor-067.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-067.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-068",
+      "art": "art-bank/neighbor-068.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-068.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-069",
+      "art": "art-bank/neighbor-069.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-069.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-070",
+      "art": "art-bank/neighbor-070.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-070.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-071",
+      "art": "art-bank/neighbor-071.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-071.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-072",
+      "art": "art-bank/neighbor-072.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-072.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-073",
+      "art": "art-bank/neighbor-073.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-073.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-074",
+      "art": "art-bank/neighbor-074.webp",
+      "type": "Creature",
+      "circle": 2,
+      "source": "pullcrest/art/family-074.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-075",
+      "art": "art-bank/neighbor-075.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-075.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-076",
+      "art": "art-bank/neighbor-076.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-076.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-077",
+      "art": "art-bank/neighbor-077.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-077.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-078",
+      "art": "art-bank/neighbor-078.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-078.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-079",
+      "art": "art-bank/neighbor-079.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-079.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-080",
+      "art": "art-bank/neighbor-080.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-080.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-081",
+      "art": "art-bank/neighbor-081.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-081.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-082",
+      "art": "art-bank/neighbor-082.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-082.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-083",
+      "art": "art-bank/neighbor-083.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-083.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-084",
+      "art": "art-bank/neighbor-084.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-084.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-085",
+      "art": "art-bank/neighbor-085.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-085.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-086",
+      "art": "art-bank/neighbor-086.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-086.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-087",
+      "art": "art-bank/neighbor-087.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-087.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-088",
+      "art": "art-bank/neighbor-088.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-088.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-089",
+      "art": "art-bank/neighbor-089.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-089.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-090",
+      "art": "art-bank/neighbor-090.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-090.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-091",
+      "art": "art-bank/neighbor-091.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-091.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-092",
+      "art": "art-bank/neighbor-092.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-092.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-093",
+      "art": "art-bank/neighbor-093.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-093.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-094",
+      "art": "art-bank/neighbor-094.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-094.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-095",
+      "art": "art-bank/neighbor-095.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-095.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-096",
+      "art": "art-bank/neighbor-096.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-096.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-097",
+      "art": "art-bank/neighbor-097.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-097.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-098",
+      "art": "art-bank/neighbor-098.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-098.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-099",
+      "art": "art-bank/neighbor-099.webp",
+      "type": "Creature",
+      "circle": 3,
+      "source": "pullcrest/art/family-099.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-100",
+      "art": "art-bank/neighbor-100.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-100.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-101",
+      "art": "art-bank/neighbor-101.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-101.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-102",
+      "art": "art-bank/neighbor-102.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-102.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-103",
+      "art": "art-bank/neighbor-103.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-103.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-104",
+      "art": "art-bank/neighbor-104.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-104.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-105",
+      "art": "art-bank/neighbor-105.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-105.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-106",
+      "art": "art-bank/neighbor-106.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-106.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-107",
+      "art": "art-bank/neighbor-107.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-107.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-108",
+      "art": "art-bank/neighbor-108.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-108.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-109",
+      "art": "art-bank/neighbor-109.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-109.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-110",
+      "art": "art-bank/neighbor-110.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-110.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-111",
+      "art": "art-bank/neighbor-111.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-111.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-112",
+      "art": "art-bank/neighbor-112.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-112.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-113",
+      "art": "art-bank/neighbor-113.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-113.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-114",
+      "art": "art-bank/neighbor-114.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-114.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-115",
+      "art": "art-bank/neighbor-115.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-115.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-116",
+      "art": "art-bank/neighbor-116.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-116.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-117",
+      "art": "art-bank/neighbor-117.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-117.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-118",
+      "art": "art-bank/neighbor-118.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-118.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-119",
+      "art": "art-bank/neighbor-119.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-119.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-120",
+      "art": "art-bank/neighbor-120.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-120.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-121",
+      "art": "art-bank/neighbor-121.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-121.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-122",
+      "art": "art-bank/neighbor-122.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-122.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-123",
+      "art": "art-bank/neighbor-123.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-123.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-124",
+      "art": "art-bank/neighbor-124.webp",
+      "type": "Creature",
+      "circle": 4,
+      "source": "pullcrest/art/family-124.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-125",
+      "art": "art-bank/neighbor-125.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-125.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-126",
+      "art": "art-bank/neighbor-126.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-126.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-127",
+      "art": "art-bank/neighbor-127.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-127.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-128",
+      "art": "art-bank/neighbor-128.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-128.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-129",
+      "art": "art-bank/neighbor-129.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-129.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-130",
+      "art": "art-bank/neighbor-130.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-130.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-131",
+      "art": "art-bank/neighbor-131.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-131.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-132",
+      "art": "art-bank/neighbor-132.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-132.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-133",
+      "art": "art-bank/neighbor-133.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-133.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-134",
+      "art": "art-bank/neighbor-134.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-134.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-135",
+      "art": "art-bank/neighbor-135.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-135.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-136",
+      "art": "art-bank/neighbor-136.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-136.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-137",
+      "art": "art-bank/neighbor-137.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-137.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-138",
+      "art": "art-bank/neighbor-138.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-138.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-139",
+      "art": "art-bank/neighbor-139.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-139.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-140",
+      "art": "art-bank/neighbor-140.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-140.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-141",
+      "art": "art-bank/neighbor-141.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-141.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-142",
+      "art": "art-bank/neighbor-142.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-142.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-143",
+      "art": "art-bank/neighbor-143.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-143.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-144",
+      "art": "art-bank/neighbor-144.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-144.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-145",
+      "art": "art-bank/neighbor-145.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-145.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-146",
+      "art": "art-bank/neighbor-146.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-146.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-147",
+      "art": "art-bank/neighbor-147.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-147.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-148",
+      "art": "art-bank/neighbor-148.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-148.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    },
+    {
+      "id": "field-149",
+      "art": "art-bank/neighbor-149.webp",
+      "type": "Creature",
+      "circle": 5,
+      "source": "pullcrest/art/family-149.webp",
+      "origin": "print-toned adaptation of existing project-generated field-guide portrait"
+    }
+  ]
+}

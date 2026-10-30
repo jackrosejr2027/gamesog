@@ -1,0 +1,15 @@
+PULLCREST - SCOPED LICENSES
+
+These permissions apply only to original additions in pullcrest/ and the Ordinary-specific integration changes. They do not relicense the existing Card Arcade or third-party dependencies.
+
+ENGINE, CLIENT, STYLES, GENERATOR AND TEST CODE: MIT License
+Copyright (c) 2026 PullCrest contributors
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ORIGINAL CARD DATA, RULEBOOK, KEYWORD AND EFFECT TEXT: CC0-1.0 dedication
+To the extent permitted by law, the contributors waive copyright and related rights they hold in these original data and rulebook contributions. You may copy, modify, distribute and use them commercially without permission. Where waiver is ineffective, a worldwide, royalty-free, nonexclusive license for those uses is granted to the fullest extent of the contributors' rights. No trademark rights are granted. Full CC0 legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+GENERATED ARTWORK
+See ART.md. To the extent contributors hold transferable rights in the generated artwork, those rights are offered under the same CC0 dedication. This does not assert that AI-generated imagery has copyright protection, exclusive ownership, or guaranteed legal clearance. No license grants rights belonging to others. No commercial game publisher affiliation is claimed.

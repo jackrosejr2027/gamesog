@@ -1,0 +1,70 @@
+/* A tactile printed deck. Kept separate from the rule engines and other game cards. */
+.deck-art,.deck-bottom{display:none}
+#g2.solitaire-deck{--cw:76px;--ch:110px;--deck-black:#23313d;--deck-red:#bb3852}
+#g2.solitaire-deck .card{border-radius:9px}
+#g2.solitaire-deck .card .f{
+ display:block!important;position:absolute;inset:0;padding:0!important;gap:0!important;
+ border:1px solid var(--playing-edge,#d6d1c5)!important;border-radius:9px!important;
+ background-color:var(--playing-bg,#fffef9);background-image:var(--playing-image,linear-gradient(145deg,#fffef9,#f4f0e5));color:var(--playing-ink,var(--deck-black));
+ box-shadow:0 2px 4px #0004,0 9px 15px #07061415,inset 0 0 0 2px #fff9;
+ overflow:hidden;text-shadow:none;font-weight:600!important;
+}
+#g2.solitaire-deck .card .f.red{color:var(--playing-red,var(--deck-red))}
+/* Override the old oversized single-suit watermark, not the card's motion wrapper. */
+#g2.solitaire-deck .card .f>.pip{display:none!important}
+#g2.solitaire-deck .card .f>span{
+ position:absolute!important;top:4px;left:5px;z-index:3;min-width:15px;text-align:center;
+ font-family:Georgia,'Times New Roman',serif!important;font-size:19px!important;font-weight:700!important;line-height:1!important;
+ background:none!important;letter-spacing:-1px;
+}
+#g2.solitaire-deck .card .f>small{
+ position:absolute!important;top:23px;left:5px;min-width:15px;text-align:center;z-index:3;
+ font-family:Georgia,'Times New Roman',serif!important;font-size:12px!important;line-height:1!important;background:none!important;font-weight:500!important;
+}
+#g2.solitaire-deck .card[data-rank="10"] .f>span{font-size:17px!important;letter-spacing:-1.5px}
+#g2.solitaire-deck .card .deck-art{display:block;position:absolute;inset:12% 28%;pointer-events:none;color:inherit}
+#g2.solitaire-deck .card .deck-art .deck-pip{
+ position:absolute;display:block;font-family:Georgia,'Times New Roman',serif!important;font-style:normal;
+ font-size:22px!important;font-weight:400;line-height:1!important;transform:translate(-50%,-50%);color:inherit;
+}
+#g2.solitaire-deck .card .deck-art .deck-pip.inverted{transform:translate(-50%,-50%) rotate(180deg)}
+#g2.solitaire-deck .card[data-rank="A"] .deck-art .deck-pip{font-size:45px!important}
+#g2.solitaire-deck .card .deck-court{inset:18% 28%;border:1px solid #bda57188;border-radius:3px;background:#f5edd7;overflow:hidden}
+#g2.solitaire-deck .deck-court img{display:block;width:100%;height:100%;object-fit:cover;pointer-events:none}
+#g2.solitaire-deck .card .deck-bottom{display:flex;position:absolute;right:5px;bottom:5px;flex-direction:column;align-items:center;gap:0;transform:rotate(180deg);pointer-events:none;line-height:1}
+#g2.solitaire-deck .card .deck-bottom b{font-family:Georgia,'Times New Roman',serif!important;font-size:20px;font-weight:700;line-height:1;letter-spacing:-1px}
+#g2.solitaire-deck .card .deck-bottom i{font-family:Georgia,'Times New Roman',serif!important;font-style:normal;font-size:14px;line-height:1}
+#g2.solitaire-deck .card[data-rank="10"] .deck-bottom b{font-size:17px;letter-spacing:-1.5px}
+#g2.solitaire-deck .card .b{
+ background:#1e2445 url('img/card-back.webp') center/100% 100% no-repeat!important;
+ border:3px solid #f5efe1!important;border-radius:9px!important;
+ box-shadow:0 2px 5px #0006,inset 0 0 0 1px #7f7195;
+}
+#g2.solitaire-deck :is(.sol-card.chosen,.card.sel) .f{outline:2px solid #d2b8ff;outline-offset:1px;box-shadow:0 0 0 4px #9a76cf55,0 5px 14px #0005}
+#g2.solitaire-deck .sol-card:focus-visible{outline:2px solid #e1cbff;outline-offset:3px;border-radius:9px}
+#g2.solitaire-deck :is(.sol-empty,.sol-found-empty,.sol-gap,.sol-fan){border:1px dashed #a89bbe66!important;background:#ffffff03!important;border-radius:9px!important;color:#b9afca;font-size:11px;box-shadow:inset 0 1px 8px #0001}
+#g2.solitaire-deck .pl{border-color:#a89bbe55;border-radius:9px}
+/* Preserve every saved face color, including the high-contrast dark palettes. */
+html.card-look-night #g2.solitaire-deck{--deck-black:#f2f4f8;--deck-red:#ff6b81}
+html.card-look-slate #g2.solitaire-deck{--deck-black:#eef2f7;--deck-red:#ff8a80}
+html.card-look-forest #g2.solitaire-deck{--deck-black:#e8f5ec;--deck-red:#ffb4a2}
+html.card-look-plum #g2.solitaire-deck{--deck-black:#f6e9fb;--deck-red:#ff9fc0}
+html.card-look-espresso #g2.solitaire-deck{--deck-black:#f5e6d3;--deck-red:#ff8a65}
+html.card-look-midnight-gold #g2.solitaire-deck{--deck-black:#f5d76e;--deck-red:#ff7675}
+html.card-look-charcoal #g2.solitaire-deck{--deck-black:#f0f0f0;--deck-red:#ff5252}
+@media(max-width:700px){
+ #g2.solitaire-deck{--cw:56px;--ch:82px}
+ #g2.solitaire-deck .card .f>span{top:4px;left:3px;min-width:13px;font-size:16px!important}
+ #g2.solitaire-deck .card .f>small{top:20px;left:3px;min-width:13px;font-size:12px!important}
+ #g2.solitaire-deck .card[data-rank="10"] .f>span{font-size:14px!important}
+ #g2.solitaire-deck .card .deck-bottom{right:3px;bottom:4px}
+ #g2.solitaire-deck .card .deck-bottom b{font-size:16px}
+ #g2.solitaire-deck .card .deck-bottom i{font-size:12px}
+ #g2.solitaire-deck .card[data-rank="10"] .deck-bottom b{font-size:14px}
+ #g2.solitaire-deck .card .deck-art .deck-pip{font-size:16px!important}
+ #g2.solitaire-deck .card[data-rank="A"] .deck-art .deck-pip{font-size:32px!important}
+ #g2.solitaire-deck .card .deck-art{inset:13% 28%}
+ #g2.solitaire-deck .card .deck-court{inset:18% 30%}
+ #g2.solitaire-deck .card .b{border-width:2px!important}
+}
+@media(prefers-reduced-motion:reduce){#g2.solitaire-deck .card .ci{transition:none}}

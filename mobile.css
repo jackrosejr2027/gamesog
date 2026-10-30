@@ -1,0 +1,66 @@
+/* Keep controls reachable with browser bars, display cutouts and an on-screen keyboard. */
+html{height:100%;-webkit-text-size-adjust:100%}
+body{height:100%;height:100dvh}
+button,a,input,select,textarea{touch-action:manipulation}
+input,textarea{user-select:text;-webkit-user-select:text}
+#top{padding-top:max(8px,env(safe-area-inset-top));padding-left:max(12px,env(safe-area-inset-left));padding-right:max(12px,env(safe-area-inset-right))}
+#g2,#magic{max-width:100%;height:100%;height:100dvh;padding-bottom:env(safe-area-inset-bottom);overscroll-behavior:contain}
+#g2b{min-width:0;flex-shrink:0;overflow-x:auto;max-width:100%}
+#g2t{flex-shrink:0;min-width:0}
+.game-title-nav{display:flex;align-items:center;gap:8px;min-width:0;flex:1}
+#g2h{overflow-wrap:anywhere;min-width:0}
+#g2prev,#g2next{flex-shrink:0;min-width:44px;min-height:44px}
+#box{overscroll-behavior:contain;overflow-wrap:anywhere;max-height:calc(100dvh - 24px - env(safe-area-inset-top) - env(safe-area-inset-bottom))}
+#box input,#box textarea{max-width:100%}
+.offline-status{font-size:12px;line-height:1.4;opacity:.8}
+@media(max-width:760px){
+  #top{gap:6px;padding:6px 8px}#top>div{gap:4px;max-width:100%}
+  #top button,#g2t button,#mtop button,.hub-tools button,.sol-actions button,.local-download{min-height:44px}
+  #g2t select,#mtop select,#top select{min-height:44px;max-width:100%}
+  #g2t{padding:8px;gap:8px;flex-wrap:wrap}
+  #g2t>span{width:100%;min-width:0;max-width:100%;gap:6px}
+  #g2t>span>*{max-width:100%}
+  #g2b{padding:10px 6px}
+  #g2b>button,#g2b .row>button{min-height:44px}
+  #box.arcade-box,#box.carousel-box{padding:16px 12px}
+  .hub-heading{gap:8px}.hub-heading h2{font-size:27px}
+  .hub-heading input{font-size:16px;min-height:44px}
+  .arcade-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .arcade-tile{min-width:0;overflow-wrap:anywhere}
+  .arcade-tile b{font-size:17px}
+  #box[data-view=compactlist] .arcade-tile{min-height:44px!important;align-items:center}
+  #mtop{flex-wrap:wrap;padding:8px;position:sticky;top:0;z-index:10}
+  #mlist,#gl{grid-template-columns:1fr;min-width:0}
+  #mlist{padding:10px}
+  .sol-columns{justify-content:flex-start;width:max-content;min-width:100%}
+  .sol-area{max-width:100%;overscroll-behavior-x:contain}
+  #k1,#k2,#f1,#f2{justify-content:flex-start}
+  .sol-memory{grid-template-columns:repeat(4,var(--cw));justify-content:center}
+  .classic-canvas{max-width:100%;height:auto;touch-action:none}
+  .tangram-board{touch-action:none}
+  .jewel-cell{touch-action:none}
+  .level-input{font-size:16px;min-height:44px}
+  #g2:has(.duel-screen){overflow-y:auto}
+  #g2:has(.duel-screen) #g2t{flex-direction:row;align-items:center}
+  #g2:has(.duel-screen) #g2t>span{flex-wrap:wrap;overflow:visible}
+  #g2:has(.duel-screen) #g2t>span>*{flex-shrink:1}
+  .duel-screen :is(.os-tabs,.pc-tabs) button{min-height:44px}
+  #g2b.duel-screen{flex:none;min-height:0;overflow:visible}
+  .duel-screen :is(.os-root,.pc-root){height:auto;overflow:visible}
+  .duel-screen :is(.os-match,.pc-match){display:flex;flex-direction:column;overflow:visible;min-height:0}
+  .duel-screen .os-tabletop{display:flex;flex-direction:column;overflow:visible}
+  .duel-screen .pc-battlefield{display:flex;flex-direction:column;overflow:visible}
+  .duel-screen :is(.os-lane,.pc-field){min-height:105px;overflow-x:auto;flex-wrap:nowrap}
+  .duel-screen :is(.os-hand,.pc-hand){min-height:145px;height:145px;flex:none;order:5}
+  .duel-screen :is(.os-sidebar,.pc-sidebar){overflow:visible;order:6}
+  .duel-screen :is(.os-sidebar,.pc-sidebar) button{min-height:44px}
+  .duel-screen :is(.os-playerbar,.pc-score){flex-wrap:wrap;white-space:normal}
+  .carousel-navigation{flex-wrap:wrap}.carousel-navigation button{min-height:44px;min-width:0}
+  #board{height:calc(100dvh - 130px);overflow:auto}
+  #stacks{gap:6px;flex-shrink:0;width:100%}.col{width:calc((100vw - 36px)/4);min-width:0}
+  #stacks .pile,#stacks .vs{transform:scale(.75);transform-origin:top center;margin-bottom:-28px}
+  #scores{gap:12px;font-size:15px}#scores b{font-size:28px}#cmb{min-width:52px;font-size:17px}
+  #hud{gap:18px;flex-shrink:0;transform:scale(.85);transform-origin:top center}
+  #toast{bottom:max(20px,env(safe-area-inset-bottom));max-width:calc(100vw - 20px);text-align:center;z-index:200}
+}
+@media(max-height:500px) and (orientation:landscape){#g2t{position:relative}#box{max-height:calc(100dvh - 12px)}#board{height:auto;min-height:100dvh}}

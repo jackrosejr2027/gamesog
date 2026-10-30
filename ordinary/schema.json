@@ -1,0 +1,136 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ordinary Card",
+  "type": "object",
+  "required": [
+    "card_id",
+    "name",
+    "type",
+    "category",
+    "cost",
+    "attack",
+    "health",
+    "armor",
+    "faction",
+    "keywords",
+    "effects",
+    "target_rules",
+    "rarity",
+    "lore",
+    "art",
+    "art_hue",
+    "art_license",
+    "rules_text",
+    "score",
+    "curated"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "card_id": {
+      "type": "string",
+      "pattern": "^OS[0-7]-[0-9]{5}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "enum": [
+        "Creature",
+        "Instant",
+        "Sorcery",
+        "Artifact",
+        "Enchantment",
+        "Land",
+        "Planeswalker",
+        "Battle"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 9
+    },
+    "attack": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "health": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "armor": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "faction": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "keywords": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "Quick",
+          "Guard",
+          "Steady",
+          "Siphon",
+          "Pierce"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "target_rules": {
+      "enum": [
+        "none",
+        "enemy_any",
+        "friendly_creature",
+        "enemy_creature",
+        "creature",
+        "enemy_support"
+      ]
+    },
+    "rarity": {
+      "enum": [
+        "everyday",
+        "unusual",
+        "singular"
+      ]
+    },
+    "lore": {
+      "type": "string"
+    },
+    "art": {
+      "type": "string",
+      "pattern": "^art/[0-5]-[0-7]\\.webp$"
+    },
+    "art_hue": {
+      "type": "integer",
+      "minimum": -32,
+      "maximum": 32
+    },
+    "art_license": {
+      "type": "string"
+    },
+    "rules_text": {
+      "type": "string"
+    },
+    "score": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "curated": {
+      "type": "boolean"
+    }
+  }
+}
